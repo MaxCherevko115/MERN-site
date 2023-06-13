@@ -1,0 +1,29 @@
+.contacts__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.contacts__dashboard {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.contacts__title {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.contacts__button {
+    width: 200px;
+}
+
+.form-add {
+    width: 400px;
+}
+
+.form-add > * {
+    margin-top: 15px;
+}

@@ -1,5 +1,9 @@
 import mongoose from "mongoose";
 
+import * as dotenv from 'dotenv';
+dotenv.config();
+
+
 const contactSchema = mongoose.Schema({
     name: {
         type: String,
@@ -17,6 +21,7 @@ const contactSchema = mongoose.Schema({
     },
     photo: {
         type: String,
+        default: process.env.PROFILE_IMG,
     },
     description: {
         type: String,

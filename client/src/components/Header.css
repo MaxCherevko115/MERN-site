@@ -1,0 +1,16 @@
+.header {
+    padding: 20px 0;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+
+.header button {
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.header__body {
+    display: flex;
+    justify-content: flex-end;
+}

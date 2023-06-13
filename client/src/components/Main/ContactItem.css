@@ -1,0 +1,42 @@
+.contact-item {
+    border: 2px solid #ebebeb;
+    text-align: center;
+    width: 100%;
+    border-radius: 12px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background-color: #333333;
+}
+
+.contact-item__image {
+    height: 150px;
+}
+
+.contact-item__image img {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.contact-item__text {
+    color: #ebebeb;
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-item__name {
+    margin: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.contact-item__number {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px;
+}

@@ -1,0 +1,95 @@
+
+
+/* DefaultInput */
+
+.input-default__item {
+    font-size: 16px;
+    padding: 10px 3px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #999999;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #ebebeb;
+    box-sizing: border-box;
+}
+
+.input-default__item:focus { 
+    outline: none;
+    border-color: #ebebeb;
+    transition: 0.2s ease all;
+}
+
+.input-default__label {
+    color:#ebebeb;
+}
+
+
+/* DefaultTextarea */
+
+.textarea-default__item {
+    font-size: 18px;
+    margin-top: 7px;
+    padding: 5px 3px 15px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #999;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #ebebeb;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.textarea-default__item:focus { 
+    outline: none;
+    border-color: #ebebeb;
+    transition: 0.2s ease all;
+}
+
+.textarea-default__label {
+    color:#ebebeb;
+}
+
+
+/* DefaultButton */
+
+.button-default__item {
+    display: block;
+    color: #ebebeb;
+    background-color: #999999;
+    border: 2px solid #ebebeb;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-default__item:hover {
+    transition: all 0.2s;
+    box-shadow: 3px 3px 2px #999999;
+    background-color: #ebebeb;
+    color: #999999;
+}
+
+.button-default__item.red {
+    background-color: #dc3545;
+}
+
+.button-default__item.red:hover {
+    color: #ebebeb;
+    box-shadow: 3px 3px 2px #dc3545;
+    background-color: #c82333;
+}
+.button-default__item.blue {
+    background-color: #007bff;
+}
+
+.button-default__item.blue:hover {
+    color: #ebebeb;
+    box-shadow: 3px 3px 2px #007bff;
+    background-color: #0069d9;
+}
